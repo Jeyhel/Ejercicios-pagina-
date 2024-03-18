@@ -1,0 +1,5 @@
+radio = float(input("Ingrese el radio del circulo: ")) 
+perimetro = 3.1416 * (radio*2) 
+area = 3.1416 * (radio*radio)
+print ("El perimetro es: " , round (perimetro,1)) 
+print ("El area es: " , round( area,1))

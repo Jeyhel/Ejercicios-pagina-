@@ -1,0 +1,6 @@
+centimetros = float(input("Ingrese la cantidad de centimetro a convertir: ")) 
+pulgadas=(centimetros/2.54) 
+print(f"la cantidad es igual a" , {pulgadas})
+centimetros = float(input("Ingrese la cantidad de centimetro a convertir: "))
+pulgadas=(centimetros/2.54) 
+print(f"la cantidad es igual a" , {pulgadas})
