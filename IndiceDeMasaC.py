@@ -1,4 +1,4 @@
-def condicion_riesgo(estatura, peso, edad):
+def condicion_riesgoo(estatura, peso, edad):
     
     imc = peso / (estatura ** 2)
     
@@ -20,9 +20,9 @@ peso = float(input("Ingrese el peso en kilogramos: "))
 edad = int(input("Ingrese la edad: "))
 
 
-resultado = condicion_riesgo(estatura, peso, edad)
+resultado = condicion_riesgoo(estatura, peso, edad)
 print("La condición de riesgo es:", resultado)
-def condicion_riesgo(estatura, peso, edad):
+def condicion_riesgoo(estatura, peso, edad):
   
     imc = peso / (estatura ** 2)
    
@@ -42,5 +42,5 @@ estatura = float(input("Ingrese la estatura en metros: "))
 peso = float(input("Ingrese el peso en kilogramos: "))
 edad = int(input("Ingrese la edad: "))
 
-resultado = condicion_riesgo(estatura, peso, edad)
+resultado = condicion_riesgoo(estatura, peso, edad)
 print("La condición de riesgo es:", resultado)
