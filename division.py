@@ -3,7 +3,7 @@ num1 = int(input("Ingrese el primer número entero: "))
 num2 = int(input("Ingrese el segundo número entero: "))
 
 
-cociente = num1 // num2  
+cocientee = num1 // num2  
 resto = num1 % num2
 
 
@@ -12,7 +12,7 @@ if resto == 0:
 else:
     es_exacta = False
 
-print("El cociente de la división es:", cociente)
+print("El cociente de la división es:", cocientee)
 print("El resto de la división es:", resto)
 
 if es_exacta:
