@@ -1,4 +1,4 @@
-def es_bisiesto(year):
+def es_bisiestos(year):
     if year < 1582:
         
         return year % 4 == 0
@@ -7,7 +7,7 @@ def es_bisiesto(year):
         return (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
 
 año = int(input("Introduce un año: "))
-if es_bisiesto(año):
+if es_bisiestos(año):
     print(f"{año} es un año bisiesto.")
 else:
     print(f"{año} no es un año bisiesto.")
